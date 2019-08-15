@@ -1,11 +1,12 @@
-The course website: https://chendaniely.github.io/pybay_2019-pandas_tutorial/
+---
+layout: default
+---
 
-## Pre-readings
+## Downloading the data
 
-1. [A Quick Guide to Organizing Computational Biology Projects][1]
-2. [Tidy Data][2]
-3. [Best Practices for Scientific Computing][3]
-4. [Good enough practices in scientific computing][4]
+The easiest way is to go to the github page and clone the repository OR click the green "Clone or Download" button and "Download Zip".
+
+The link to the Github repostiory is on the left, or you can click here: https://github.com/chendaniely/pybay_2019-pandas_tutorial
 
 ## Setup
 
@@ -83,7 +84,24 @@ Close the terminal window.
 6. Note the URL (with the token), paste it into your browser
 7. Close the anaconda prompt when you're done
 
-[1]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
-[2]: http://vita.had.co.nz/papers/tidy-data.html
-[3]: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
-[4]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
+### Installing Packages
+
+To install the packages needed for the class you can follow the instructions below:
+
+1. Open your Anaconda Command prompt (Windows)
+2. Run the following lines of code
+    - note that ctrl+v may not paste in windows,
+	  you can paste by pressing shift + insert,
+	  or by clicking the icon to the top left of the Anaconda Command promt then edit then paste
+
+If you are just following along with the class, you may only need to run the following command:
+
+Anaconda has everything you need for the class.
+However,  f you installed miniconda, instead of Anaconda,
+you would need to run the following commands to make sure you have everything.
+
+``` bash
+conda install xlwt openpyxl seaborn statsmodels scikit-learn regex odo numba
+conda install -c conda-forge feather-format wget
+pip install lifelines pandas-datareader
+```
