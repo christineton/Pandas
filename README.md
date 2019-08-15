@@ -1,10 +1,3 @@
-## Pre-readings
-
-1. [A Quick Guide to Organizing Computational Biology Projects][1]
-2. [Tidy Data][2]
-3. [Best Practices for Scientific Computing][3]
-4. [Good enough practices in scientific computing][4]
-
 ## Pandas Practice Activities
 
 ## Pandas DataFrame Basics
@@ -26,7 +19,7 @@
 exercise: load the tips dataset and filter rows by gender and total bill amount.
 
 
-## :45 - 1:30 Tidy data
+## Tidy data
 
 Knowing what is a "clean" and "tidy" dataset will help look for common data problems and give an idea on what our final dataset should look like. Once the data is tidy, it can be easily transformed to other shapes needed for analysis. Understanding what kinds of data manipulation steps are needed will help with the "how" to do it, i.e., it is language agnostic, and won't matter what language you use.  This section goes through Hadley Wickham's "Tidy Data" paper.
 
